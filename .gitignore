@@ -1,0 +1,10 @@
+bin/
+
+obj/
+*.o
+*.obj
+
+lib/
+*.a
+*.so
+*.so.*

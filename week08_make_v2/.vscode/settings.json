@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "basic_ops.h": "c",
+        "advanced_ops.h": "c"
+    }
+}
