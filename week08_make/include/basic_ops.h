@@ -1,9 +1,11 @@
-#ifndef BASIC_OPS_H
-#define BASIC_OPS_H
+#ifndef biasic_ops
+#define biasic_ops
 
-double add(double a, double b);
-double sub(double a, double b);
-double mul(double a, double b);
-double div(double a, double b);
+#include <stdio.h>
+void add(void);
+void div(void);
+void mul(void);
+void myapp(void);
+void sub(void);
 
 #endif
