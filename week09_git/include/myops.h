@@ -1,7 +1,6 @@
 #ifndef MYOPS_H
 #define MYOPS_H
 
-#include <math.h>
 
 
 double myadd(double a, double b);
