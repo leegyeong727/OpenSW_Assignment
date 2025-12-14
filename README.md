@@ -1,21 +1,15 @@
-# Open Source Software Design - Assignment Archive
+# OpenSW Assignment - Week 12
+This week's assignment covers Linux system programming with focus on process control:
+- fork()
+- execve()
+- waitpid()
+- orphan and zombie process behavior
+- system() implementation using execl()
 
-## 📘 Course Information
-- **Course:** Open Source Software Design  
-- **University:** Incheon National University  
-- **Semester:** Fall 2025  
+Files included:
+- 01_fork.c
+- 02_nowait.c
+- 03_execve.c
+- 04_mysystem.c
 
----
-
-## 📁 Repository Structure  
-This repository is organized by week and topic.  
-Each directory corresponds to a specific assignment or lecture.
-
-- **week02_linux/**: Introduction to Linux & Basic Commands  
-- **week03_linux_v2/**: Introduction to Linux & Basic Commands  
-- **week04_bash/**: Assignments related to Bash scripting.  
-- **week07_gcc/**: Assignments on using the GCC compiler and linking.  
-- **week08_make/**: Introduction to Makefiles for project automation.  
-- **week08_make_v2/**: Advanced Makefiles, including recursive call.  
-- **week09_git/**: Assignments on Git version control (branching, merging).  
-- **week11_syscall_file/**: File I/O system calls  
+All implementations tested on Ubuntu.
